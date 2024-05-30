@@ -1,6 +1,6 @@
 .introducao-bg{
-    background-image: url(../../imagens/image.png);
-    height: 600px;
+    background-image: url(../../imagens/categorias-img7.png);
+    height: 383px;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,10 +14,9 @@
 
 .introducao-conteudo p{
     font-size: 1.5rem;
-    margin-bottom: 40px;
     line-height: 1.3;
     text-shadow: -11px -8px 20px black;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .introducao-conteudo h1{
@@ -27,11 +26,21 @@
 
 @media (max-width:700px){
     .introducao-conteudo p{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
 
     .introducao-conteudo h1{
         font-size: 2rem;
     }
     
+}
+
+@media (max-width:1285px){
+    .introducao-bg{
+        background-image: url(../../imagens/image.png);
+        height: 383px;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+ }
 }
